@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LMS.APP", "LMS.APP\LMS.APP.
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "LMS_Web", "LMS_Web\LMS_Web.esproj", "{73500CCA-B7A1-42B7-A420-6B6CC5D3C800}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMS.Shared", "LMS.Shared\LMS.Shared.csproj", "{D5A2C8B6-DA37-4176-A244-FF4636332915}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LMS.Shared", "LMS.Shared\LMS.Shared.csproj", "{D5A2C8B6-DA37-4176-A244-FF4636332915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMS.AuthAPI", "LMS.AuthAPI\LMS.AuthAPI.csproj", "{B665EAA0-0539-40E7-B8E5-7F52364E01EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{D5A2C8B6-DA37-4176-A244-FF4636332915}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5A2C8B6-DA37-4176-A244-FF4636332915}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5A2C8B6-DA37-4176-A244-FF4636332915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B665EAA0-0539-40E7-B8E5-7F52364E01EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B665EAA0-0539-40E7-B8E5-7F52364E01EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B665EAA0-0539-40E7-B8E5-7F52364E01EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B665EAA0-0539-40E7-B8E5-7F52364E01EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
