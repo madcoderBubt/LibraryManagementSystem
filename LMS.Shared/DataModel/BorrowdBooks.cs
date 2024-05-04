@@ -21,12 +21,12 @@ namespace LMS.Shared.DataModel
         [ForeignKey(nameof(Members))]
         public int MemberId { get; set; }
         [JsonIgnore]
-        public Members Members { get; set; }
+        public virtual Members Members { get; set; }
 
         [ForeignKey(nameof(Books))]
         public int BookId { get; set; }
         [JsonIgnore]
-        public Books Books { get; set; }
+        public virtual Books Books { get; set; }
     }
     public enum BorrowStatus
     {
